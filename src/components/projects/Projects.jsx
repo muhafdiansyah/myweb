@@ -60,7 +60,7 @@ export default function Projects() {
                         <h2> Video Projects </h2>
                             <Slider className="slider" {...settings}>
                                 <div><item><iframe height="180" src="https://www.youtube.com/embed/b_dKBkZDvoA"></iframe></item></div>
-                                <div><item><iframe height="180" src="https://www.youtube.com/embed/RLbmPL-5P3E"></iframe></item></div>                      
+                                <div><item><iframe height="180" src="https://www.youtube.com/embed/zZSevWh1ZeM"></iframe></item></div>                      
                                 <div><item><iframe height="180" src="https://www.youtube.com/embed/IefvyAh6ZMg"></iframe></item></div>
                                 <div><item><iframe height="180" src="https://www.youtube.com/embed/1rTEBpz5Rj0"></iframe></item></div>
                                 <div><item><iframe height="180" src="https://www.youtube.com/embed/q-6hPJ59nYM"></iframe></item></div>
