@@ -20,6 +20,10 @@
     color: #363636;
 }
 
+.intro h1 {
+    line-height: 20px;
+    font-size: 24px;
+}
 
 .intro h1 {
     color:#363636;
@@ -88,6 +92,16 @@
 
   @media screen and (max-width:800px) {
 
+    .container {
+        width:100%;
+    }
+
+    .my-photo {
+        transform:scale(0.8);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .container p {
         color: #363636;
         width:100%;
@@ -109,9 +123,11 @@
     }
 
     .shortcut-link a
-    {
-        padding: 8px 25px;
-        margin: 0 4px;
+
+    {   
+        weight:100px;
+        padding: 8px 20px;
+        margin: 0 2px;
     }
   }
 

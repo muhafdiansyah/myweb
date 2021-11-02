@@ -10,7 +10,7 @@ export default function intro() {
                     <img src={profilepic} alt="" className="my-photo"/>
                 <p><span className="introname">Hello I'm <strong>Muhammad Afdiansyah</strong>!</span></p>
                 <p className="body-text">I'm an undergraduate Information and Technology student at Gadjah Mada University.
-                    I'm passionate on technology and creative industries. Currently learning front-end Web Development. i also work as a Video Editor and Motion Designer freelancer. </p>
+                    I'm passionate on technology and creative industries. Currently learning front-end web development. i also work as a Video Editor and Motion Designer freelancer. </p>
 
                 <div className="shortcut-link" >
 
