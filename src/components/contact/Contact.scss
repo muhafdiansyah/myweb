@@ -1,13 +1,11 @@
 .contact {
     overflow-y: hidden;
     background-color:white;
-    .example::-webkit-scrollbar {
-        display: none;}
 
     .container {
         width:80%;
-        right:20px;
-       
+        display:inline-block;
+        padding-right:70px;
 
         .social-top {
             li {
