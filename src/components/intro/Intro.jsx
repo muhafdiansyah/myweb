@@ -9,7 +9,7 @@ export default function intro() {
                 <h1 className="heading h-welcome">Welcome to My Site!</h1>
                     <img src={profilepic} alt="" className="my-photo"/>
                 <p><span className="introname">Hello I'm <strong>Muhammad Afdiansyah</strong>!</span></p>
-                <p className="body-text">I'm an undergraduate information and technology student at Gadjah Mada University.
+                <p className="body-text">I'm an undergraduate Information and Technology student at Gadjah Mada University.
                     I'm passionate on technology and creative industries. Currently learning front-end Web Development. i also work as a Video Editor and Motion Designer freelancer. </p>
 
                 <div className="shortcut-link" >
