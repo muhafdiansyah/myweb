@@ -13,11 +13,9 @@ export default function intro() {
                     I'm passionate on technology and creative industries. Currently learning front-end web development. i also work as a Video Editor and Motion Designer freelancer. </p>
 
                 <div className="shortcut-link" >
-
                     <a href="#skill" className="body-text" style={{fontFamily: "montserrat"}}><i class="fas fa-angle-down">  Skills</i></a>
                     <a href="#projects" className="body-text"><i class="fas fa-angle-down">  Projects</i></a>
                     <a href="#contact" className="body-text"><i class="fas fa-angle-down">  Contacts</i></a>
-
                 </div>
             </div>
         </div>
