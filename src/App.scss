@@ -3,11 +3,10 @@
 
 
     .sections {
-
+        scroll-behavior:smooth;
         width:100%;
         position: relative;
         top:70px;
-        
         text-align:center;
 
         > *{
