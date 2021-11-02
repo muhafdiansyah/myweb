@@ -1,0 +1,53 @@
+@import "../../global.scss";
+
+.topbar {
+    width:100%;
+    height: 70px;
+    background-color:#0F2027;
+    position:fixed;
+    bottom:15;
+    z-index:2;
+
+}
+
+.wrapper {  
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        align-items: center;
+        
+        .logo {
+            width:150px;
+            align-items: center;
+            
+        }
+    }
+
+    .right {
+            display:block;
+            height:70px;
+            line-height:70px;
+            float:right;
+            padding-right:30px;
+            
+            
+        .navbaritem{
+            
+            text-decoration: none;
+            font-weight:500;
+            color:white;
+            margin-top:auto;
+            margin-bottom: auto;
+            align-items: center;
+            padding: 25.5px 15px 25.5px 15px;
+            
+        }
+
+        .navbaritem:hover {
+            transition: all 0.5s;
+            background-color:#687d9c;
+        }
+    }
+}

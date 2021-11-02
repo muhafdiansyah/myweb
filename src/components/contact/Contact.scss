@@ -1,0 +1,80 @@
+.contact {
+    overflow-y: hidden;
+    background-color:white;
+    .example::-webkit-scrollbar {
+        display: none;}
+
+    .container {
+        overflow-y: hidden;
+        width:80%;
+        position:relative;
+        right:20px;
+
+        .social-top {
+            li {
+                justify-content: center;
+                align-items: center;
+                list-style:none;
+                margin: 0px 10px 0px 10px;
+                font-size:40px;
+                display:inline-block;
+                padding:10px 10px;
+                color:#363636;
+                transition:0.5s;
+            }
+        }
+
+        .social-bottom {
+            overflow: hidden;
+
+            li {
+
+                height:100%;
+                width:100%;
+                justify-content: center;
+                align-items: center;
+                list-style:none;
+                margin: 10x ;
+                padding:0px 10px;
+                font-size:25px;
+                display:inline;
+                color:#363636;
+                transition:0.5s;
+                overflow-y: hidden;
+
+
+                span {
+                    overflow-y: hidden;
+                    height:100%;
+                    padding-left:10px;
+                    font-size:15px;
+                    font-weight:500;
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+.social-top li:hover {
+    transform:scale(0.9);
+}
+
+.contact h1 {
+    color:#363636;
+}
+
+.contact h1::after
+    {
+        content: '';
+        border-bottom: 2px solid #363636;
+        width: 4em;
+        display: block;
+        opacity: 0.5;
+    }
+
+
+    

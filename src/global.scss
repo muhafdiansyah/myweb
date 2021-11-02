@@ -1,0 +1,28 @@
+:root {
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+$mainColor:#0F2027;
+
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color:#363636;
+}
+
+.heading {
+    padding-top:50px;
+    line-height:20px;
+}
+
+.heading::after {
+    content: '';
+    display: block;
+    width: 4em;
+    height: 0px;
+    margin: 0.5em auto 1em;
+    opacity: 0.5;
+}
